@@ -8,27 +8,28 @@
   <body>
     <header>
       <nav>
-        <a href="#"> <img src="./images/logo.svg" alt="Логотип сучасної пекарні"></a>
+        <a href="/"> <img src="./images/logo.svg" alt="Логотип сучасної пекарні"></a>
         <ul>
-          <li><a href="#" target="_blank">Франшиза</a></li>
-          <li><a href="#" target="_blank">Наші традиції</a></li>
-          <li><a href="#" target="_blank"> Формати</a></li>
-          <li><a href="#" target="_blank">Контакти</a></li>
+          <li><a class="link" href="#traditions-section" target="_blank">Наші традиції</a></li>
+          <li><a class="link" href="#chefs-section" target="_blank">Шеф - кухарі</a></li>
+          <li><a class="link" href="#format-section" target="_blank"> Формати</a></li>
+          <li><a class="link" href="#contact-section" target="_blank">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
+      <link rel="stylesheet" href="./css/styles.css">
     </header>
     <main>
-      <section>
-        <h1>Сучасна пекарня</h1>
+      <section class="main-section">
+        <h1 class="hero-title"> <span class="accent">Сучасна</span> пекарня</h1>
       </section>
-      <section>
-        <ul>
+      <section id="traditions-section">
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> - це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральності інгредієнтів.
@@ -40,8 +41,8 @@
         </p>
         <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою">
       </section>
-      <section>
-        <h2>Наші найкращі шеф - кухарі</h2>
+      <section id="chefs-section">
+        <h2 class="section-title">Наші найкращі <span class="accent">шеф - кухарі</span></h2>
         <ul>
           <li>
             <article>
@@ -64,8 +65,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Формати</h2>
+      <section id="format-section">
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -84,16 +85,17 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Приєднуйтесь до мережі пекарень</h2>
+      <section id="contact-section">
+        <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
+        <iframe target="_blank" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.163447036113!2d30.488698376116673!3d50.45668098691576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731615720629!5m2!1sru!2sua" width="603" height="595" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </main>
     <footer>
       <nav>
         <a href="#"> <img src="./images/logo.svg" alt="Логотип сучасної пекарні"></a>
         <ul>
-          <li><a href="#" target="_blank">Франшиза</a></li>
           <li><a href="#" target="_blank">Наші традиції</a></li>
+          <li><a href="#" target="_blank">Шеф - кухарі</a></li>
           <li><a href="#" target="_blank"> Формати</a></li>
           <li><a href="#" target="_blank">Контакти</a></li>
         </ul>
@@ -117,7 +119,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>© 2023 Дані захищені</p>
+        <p>&copy; 2023 Дані захищені</p>
       </address>
     </footer>
   </body>
